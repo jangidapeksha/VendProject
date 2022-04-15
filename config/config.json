@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-vendormanagement-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxVendormanagement/SpfxVendormanagementWebPart.js",
+          "manifest": "./src/webparts/spfxVendormanagement/SpfxVendormanagementWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "react-bootstrap":"node_modules/react-bootstrap/dist/react-bootstrap.min.js"
+  },
+  "localizedResources": {
+    "SpfxVendormanagementWebPartStrings": "lib/webparts/spfxVendormanagement/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

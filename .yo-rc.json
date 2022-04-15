@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "spfx-vendormanagement",
+    "libraryId": "75b5e9fd-b75b-480b-84ef-a4eb495613dc",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfxVendormanagement",
+    "solutionShortDescription": "spfxVendormanagement description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

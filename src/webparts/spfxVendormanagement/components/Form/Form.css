@@ -1,0 +1,41 @@
+/*start form css*/
+.col-form-label {
+    font-size: 14px;
+  }
+  
+  .form-control {
+    border-color: #c49d9d !important;
+  }
+  
+  .input-with-icon {
+    position: relative;
+  }
+  
+  .input-with-icon input {
+    padding-right: 30px;
+  }
+  
+  .input-icon {
+    position: absolute;
+    top: 5px;
+    right: 24px;
+    line-height: 22px;
+    pointer-events: none;
+  }
+  
+  .input-icon a {
+    color: #777777;
+    font-size: 18px;
+  }
+  
+  label {
+    color: #000;
+    margin-bottom: 0.2rem;
+  }
+  /*end form css*/
+  .div-margin-form{
+    margin-left: 11px !important;
+  }
+  p{
+    color: red !important;
+  }

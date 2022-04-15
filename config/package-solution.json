@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-vendormanagement-client-side-solution",
+    "id": "75b5e9fd-b75b-480b-84ef-a4eb495613dc",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfxVendormanagement description"
+      },
+      "longDescription": {
+        "default": "spfxVendormanagement description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-vendormanagement Feature",
+        "description": "The feature that activates elements of the spfx-vendormanagement solution.",
+        "id": "e6e51b04-429e-42a5-b023-f839b4cce7c2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-vendormanagement.sppkg"
+  }
+}
